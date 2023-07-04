@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'simple-keyboard/build/css/index.css';
+#wordle-board {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.letter-box {
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.filled-box {
+  border: 2px solid black;
+}
+
+.letter-row {
+  display: flex;
+}
+.bgcolorgreen {
+  background-color: #6aaa64;
+  color: white;
+}
+.bgcolorgrey {
+  background-color: #787c7e;
+  color: white;
+}
+.bgcoloryellow {
+  background-color: #c9b458;
+  color: white;
+}
